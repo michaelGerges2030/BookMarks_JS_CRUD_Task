@@ -50,3 +50,21 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+@media (max-width: 764px)
+{
+ *{
+    font-size: 0.6rem !important;
+ }
+ h1{
+    font-size: 1rem !important; 
+ }
+ h1::before{
+    width:15%;
+    height:11%;
+    left:42%;
+    bottom:33px;
+    background-color: #fec260;
+    z-index: -1;
+    transition: 0.5s;
+}
+}
